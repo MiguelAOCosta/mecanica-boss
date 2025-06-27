@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 .about-content {
   max-width: 700px;
@@ -21,12 +22,8 @@
   .about-content {
     max-width: 600px;
   }
-  .about-img {
-    max-width: 250px;
-    height: 450px;
-  }
 }
-@media (width<900px) {
+@media (width<965px) {
   .about-container {
     justify-content: center;
   }
