@@ -1,0 +1,27 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.service-card {
+  width: 275px;
+  height: 275px;
+  background-color: var(--color-bg-cards);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-img {
+  width: 125px;
+}
+.service-title {
+  font-size: 1rem;
+}
+.service-description {
+  text-align: center;
+  font-size: 0.8rem;
+}
