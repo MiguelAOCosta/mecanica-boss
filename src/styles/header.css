@@ -21,9 +21,6 @@ header {
   color: var(--color-text-ligth);
   z-index: 999;
 }
-.logo-color {
-  color: var(--color-bg-button);
-}
 .menu-list {
   display: flex;
   list-style: none;
