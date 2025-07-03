@@ -78,3 +78,5 @@ function showSlider() {
     nextBtn.click()
   }, 5000)
 }
+
+//Localização

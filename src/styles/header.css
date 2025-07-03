@@ -56,7 +56,7 @@ header {
     transition: 0.5s;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 998;
   }
   .menu-list.active {
