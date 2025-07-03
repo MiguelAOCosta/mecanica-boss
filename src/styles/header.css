@@ -47,6 +47,7 @@ header {
     left: 0%;
     top: -1000%;
     width: 100%;
+    opacity: 0;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
@@ -54,11 +55,12 @@ header {
     padding-block: 5rem;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
   }
   .menu-list.active {
     top: 0;
+    opacity: 1;
   }
   .menu-hamburger {
     display: block;
