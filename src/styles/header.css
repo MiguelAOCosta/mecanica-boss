@@ -54,13 +54,14 @@ header {
     align-items: center;
     padding-block: 5rem;
     transition: 0.5s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 998;
   }
   .menu-list.active {
     top: 0;
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
   }
   .menu-hamburger {
     display: block;
