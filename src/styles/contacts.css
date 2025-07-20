@@ -1,0 +1,29 @@
+.maps {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+#google-map {
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contacts-content {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-img {
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .maps {
+    flex-direction: column-reverse;
+  }
+}

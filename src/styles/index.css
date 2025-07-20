@@ -4,6 +4,7 @@
 @import url("services.css");
 @import url("about.css");
 @import url("gallery.css");
+@import url("contacts.css");
 
 :root {
   --color-bg-cards: #e3e3e3;

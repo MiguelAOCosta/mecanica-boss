@@ -12,12 +12,12 @@
     <header>
         <div class="header-container">
             <h3 class="logo">Mecânica <span class="logo-color">Boss</span></h3>
-            <ul class="menu-list">
-                <li class="menu-link"><a href="#services">Serviços</a></li>
-                <li class="menu-link"><a href="#about">Sobre</a></li>
-                <li class="menu-link"><a href="#gallery">Galeria</a></li>
-                <li class="menu-link"><a href="#contacts">Contactos</a></li>
-            </ul>
+            <div class="menu-list">
+                <a href="#services" class="menu-link">Serviços</a>
+                <a href="#about" class="menu-link">Sobre</a>
+                <a href="#gallery" class="menu-link">Galeria</a>
+                <a href="#contacts" class="menu-link">Contactos</a>
+            </div>
             <a href="#book" class="btn menu-btn">Agendar Agora</a>
             <ul class="menu-hamburger">
                 <li class="hamburger"></li>
@@ -179,6 +179,34 @@
         <section id="contacts">
             <h2 class="section-title">Contactos</h2>
 
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.768745905139!2d-46.216080909747006!3d-23.534005514792888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce77ef37f1a5b5%3A0xeb2c3061e198644c!2sBosch%20Car%20Service%20-%20Mec%C3%A2nica%20BOSS!5e0!3m2!1spt-PT!2spt!4v1753015216828!5m2!1spt-PT!2spt"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" id="google-map"></iframe>
+
+                <div class="contacts-container">
+                    <div class="contacts-content">
+                        <img src="./src/images/email.svg" alt="E-mail" class="contact-img">
+                        <p>mecanica.boss@gmail.com</p>
+                    </div>
+                    <div class="contacts-content">
+                        <img src="./src/images/telephone.svg" alt="Telefone" class="contact-img">
+                        <div>
+                            <p>(11) 47211881</p>
+                            <p>(11) 99745-5261</p>
+                        </div>
+                    </div>
+                    <div class="contacts-content">
+                        <img src="./src/images/watch.svg" alt="Horário" class="contact-img">
+                        <p>Segunda a Sexta das 8h às 19h. Sábados das 8h às 16h</p>
+                    </div>
+                    <div class="contacts-content">
+                        <img src="./src/images/address.svg" alt="Morada" class="contact-img">
+                        <p>Av. Francisco Ferreira Lopes, 585 - Vila Lavínia, Mogi das Cruzes - SP, 08735-200</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

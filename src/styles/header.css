@@ -27,18 +27,18 @@ header {
   gap: 1rem;
   font-size: 1rem;
 }
-.menu-link a {
+.menu-link {
   color: var(--color-text-ligth);
   transition: color 0.3s;
 }
-.menu-link a:hover {
+.menu-link:hover {
   color: var(--color-bg-button);
 }
 .menu-hamburger {
   display: none;
 }
 
-@media (width<900px) {
+@media screen and (max-width: 900px) {
   .menu-btn {
     display: none;
   }
@@ -56,7 +56,8 @@ header {
     transition: 0.5s;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.9);
+    -moz-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 998;
   }
   .menu-list.active {
