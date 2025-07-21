@@ -1,0 +1,21 @@
+.footer-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+.bold-text {
+  font-weight: 600;
+}
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+.social-footer {
+  width: 2rem;
+  border: 1px solid var(--color-text-ligth);
+  padding: 0.4rem;
+}

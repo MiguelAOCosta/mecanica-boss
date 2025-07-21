@@ -1,0 +1,98 @@
+.books {
+  background-color: var(--color-bg-button-ligth);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 6rem;
+}
+.subtitle {
+  text-align: center;
+  margin: -1.5rem 0 3rem 0;
+  font-size: 0.9rem;
+}
+.books::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: var(--color-bg-button-ligth);
+  transform: rotate(45deg);
+  top: -13px;
+  right: 150px;
+}
+.circle {
+  border-radius: 50%;
+  background: linear-gradient(135deg, transparent 20%, #d87920);
+  position: absolute;
+}
+.circle.one {
+  width: 130px;
+  height: 130px;
+  top: 130px;
+  right: -40px;
+}
+.circle.two {
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  right: 30px;
+}
+.circle.three {
+  width: 100px;
+  height: 100px;
+  bottom: 120px;
+  left: -10px;
+}
+.book-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 1rem;
+}
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+  width: fit-content;
+}
+.input {
+  width: 450px;
+  outline: none;
+  border: 2px solid var(--color-text-ligth);
+  background: none;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+textarea.input {
+  padding: 0.8rem 2rem;
+  min-height: 150px;
+  resize: none;
+  overflow-y: auto;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: var(--color-bg-button-ligth);
+}
+.book-container .btn {
+  padding: 0.6rem 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 2px solid var(--color-bg-button);
+}
+.book-container .btn:hover {
+  background-color: transparent;
+  color: var(--color-text-dark);
+}
+
+@media screen and (max-width: 900px) {
+  .input {
+    width: 100%;
+  }
+}

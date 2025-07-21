@@ -16,10 +16,16 @@
 .contacts-content {
   display: flex;
   align-items: flex-start;
+  letter-spacing: 0.5px;
+  gap: 1rem;
 }
 .contact-img {
   width: 1.2rem;
-  margin-right: 1rem;
+}
+.social {
+  width: 2rem;
+  padding: 5px;
+  background-color: var(--color-text-dark);
 }
 
 @media screen and (max-width: 900px) {

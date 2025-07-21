@@ -11,6 +11,7 @@
 .about-content p {
   margin-bottom: 1.8rem;
   line-height: 1.8rem;
+  letter-spacing: 0.5px;
 }
 .about-img {
   max-width: 300px;

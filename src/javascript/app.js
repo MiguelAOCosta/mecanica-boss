@@ -78,3 +78,17 @@ function showSlider() {
     nextBtn.click()
   }, 5000)
 }
+
+//Botão de voltar ao Topo
+
+const showTop = document.querySelector(".top")
+
+window.addEventListener("scroll", () => {
+  let scroll = window.scrollY
+
+  if (scroll >= 400) {
+    showTop.classList.add("show")
+  } else {
+    showTop.classList.remove("show")
+  }
+})

@@ -27,7 +27,7 @@
         </div>
     </header>
 
-    <div class="hero-container">
+    <div id="hero" class="hero-container">
         <div class="hero-content">
             <h1 class="hero-title">CUIDAMOS DO SEU CARRO COMO SE FOSSE NOSSO</h1>
             <a href="#book" class="btn">Marcar Agendamento</a>
@@ -93,7 +93,7 @@
             </div>
         </section>
 
-        <section id="gallery" class="slider">
+        <section id="gallery" class="slider section-full">
             <div class="slider-list">
                 <div class="slider-item active-slider">
                     <img src="src/images/gallery/gallery-1.jpg" alt="Galeria de imagens">
@@ -205,10 +205,66 @@
                         <img src="./src/images/address.svg" alt="Morada" class="contact-img">
                         <p>Av. Francisco Ferreira Lopes, 585 - Vila Lavínia, Mogi das Cruzes - SP, 08735-200</p>
                     </div>
+                    <div class="contacts-content">
+                        <a href="#"><img src="./src/images/facebook.svg" alt="Facebook" class="social"></a>
+                        <a href="#"><img src="./src/images/instagram.svg" alt="Instagram" class="social"></a>
+                        <a href="#"><img src="./src/images/whatsapp.svg" alt="whatsapp" class="social"></a>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section id="book" class="section-full books">
+            <h2 class="section-title">Vamos Entrar em Contacto</h2>
+            <p class="subtitle">A mecânica <span class="logo-color">Boss</span> entrará em contacto consigo para
+                podermos agendar uma data para que o seu problema
+                seja passageiro.</p>
+
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <span class="circle three"></span>
+
+            <form action="" class="book-container">
+                <div class="input-container">
+                    <label for="" class="label">Nome</label>
+                    <input type="text" name="name" class="input" placeholder="Nome" required>
+                </div>
+                <div class="input-container">
+                    <label for="" class="label">E-mail</label>
+                    <input type="email" name="email" class="input" placeholder="E-mail" required>
+                </div>
+                <div class="input-container">
+                    <label for="" class="label">Telemóvel</label>
+                    <input type="tel" name="phone" class="input" placeholder="Telemóvel" required>
+                </div>
+                <div class="input-container textarea">
+                    <label for="" class="label">Mensagem</label>
+                    <textarea name="message" class="input" placeholder="Mensagem" required></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Mecânica Boss. Todos os direitos reservados.</p>
+
+            <div>
+                <p><span class="bold-text">Email:</span> mecanica.boss@gmail.com</p>
+                <p><span class="bold-text">Telefone:</span> (11) 47211881 / (11) 99745-5261</p>
+            </div>
+
+            <div class="social-media">
+                <a href="#"><img src="./src/images/facebook.svg" alt="Facebook" class="social-footer"></a>
+                <a href="#"><img src="./src/images/instagram.svg" alt="Instagram" class="social-footer"></a>
+                <a href="#"><img src="./src/images/whatsapp.svg" alt="WhatsApp" class="social-footer"></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#hero" class="top">&uarr;</a>
+
 
     <script src="src/javascript/app.js"></script>
 </body>
